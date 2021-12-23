@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <style>
+        table thead tr th{
+            padding: 10px;
+        }
+        table{
+            color: black
+        }
+        table tbody tr th{
+            padding: 10px;
+        }
+        table tbody tr td{
+            padding: 5px;
+            border: 2px solid white;
+            background-color: black;
+            color: white;
+        }
+        .formStyle{
+            padding: 5px;
+            background-color: white;
+        }
+        a{
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        a:hover{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Exercise #2 
+        Crea una página llamada Mi tienda. Debe tener una tabla con 3 columnas (Artículo, Nombre y Precio). Vea los datos a continuación y cree su tabla: -->
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">My Store</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>ARTICULO</th>
+                <th>NOMBRE</th>
+                <th>PRECIO</th>
+            </tr>
+            <tr>
+                <td>#1</td>
+                <td>Oranges</td>
+                <td>$1</td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>Bananas</td>
+                <td>$0.75</td>
+            </tr>
+            <tr>
+                <td>#3</td>
+                <td>Pomegranates</td>
+                <td>$5</td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>Gummy Bears</td>
+                <td>$6</td>
+            </tr>
+            <tr>
+                <td>#4</td>
+                <td>Broccoli</td>
+                <td>$3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+<!-- Exercise #3
+    Parte 1: Cree una página simple y coloque dos entradas de texto y un botón Enviar en ella. Pregunte por el nombre y la dirección del usuario. -->
+
+    <form>
+        <input type="text" cols="30" placeholder="NOMBRE">
+        <br><br>
+        <textarea cols="30" rows="10" placeholder="DIRECCION"></textarea>
+    </form>
+
+    <hr>
+
+<!-- Parte 2: Pregunte por algunas cosas más: nombre, apellido, dirección, ciudad, país. Organiza las cosas de forma ordenada en una tabla sin bordes. -->
+
+    <table back>
+        <thead>
+            <tr>
+                <th colspan="2">PEOPLE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>NAME</th>
+                <td class="formStyle">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th>FIRST NAME</th>
+                <td class="formStyle">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th>ADRESS</th>
+                <td class="formStyle">
+                    <textarea cols="30" rows="10" style="min-height: 15px; max-height: 150px; max-width: 170px; min-width: 170px;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>CITY</th>
+                <td class="formStyle">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th>COUNTRY</th>
+                <td class="formStyle">
+                    <input type="text">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <a href="mesaFamiliar.html">Mi Familia</a>
+
+</body>
+</html>
